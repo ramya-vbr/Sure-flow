@@ -1,0 +1,71 @@
+.body{
+    min-height: 100vh;
+}
+.container{
+    width: 100%;
+    display: flex;
+}
+.NavBarContainer{
+    width: 20%;
+    text-align: left;
+    background-color: #fff;
+    height: 100vh;
+}
+.headerContainer{
+    color: rgb(66, 66, 231);
+    padding: 10px 30px;
+}
+.topContainer{
+    margin-top: 20px;
+}
+.topContainer > div{
+    margin: 30px;
+}
+.menuOne, .menuThree, .menuFour, .menuFive, .menuSix,.menuSev,
+.menuEight
+{
+    padding-left: 15px;
+    color: grey;
+    font-size: 14px;
+}
+.menuTwo{
+    padding-left: 15px;
+    color:blue;
+    font-size: 14px;
+}
+.inventoryStyle{
+    color: blue;
+}
+.bottomContainer{
+    position:absolute;
+    bottom: 0;
+}
+.bottomContainer> div{
+    margin: 30px;
+}
+.AppBar{
+    background-color: rgb(192, 193, 194);
+    width: 80%;
+    height: 100vh;
+}
+.sandwichIcon{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .NavBarContainer{
+        width: 10%;
+        text-align: left;
+        background-color: #fff;
+        height: 100vh;
+    }
+    .topContainer, .bottomContainer, .headerContainer{
+        display: none;
+    }
+    .sandwichIcon{
+        display: flex;
+        font-size: 30px;
+        position: relative;
+        left: 25px;
+        bottom: -20px;
+    }
+}

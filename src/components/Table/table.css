@@ -1,0 +1,138 @@
+.productContainer{
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    height: 58%;
+}
+.productHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0px 15px;
+}
+.btnContainer > button{
+    margin: 0px 10px;
+    text-transform: none;
+}
+table {
+    border-collapse: collapse;
+    width: 98%;
+    margin-left: 15px;
+}
+td {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 12px;
+}
+.modalContainer{
+    background-color: rgb(103, 103, 158);
+    width: 400px;
+    height: 500px;
+}
+.nameInput{
+    width: 50%;
+}
+.modalHeader{
+    color: rgb(31, 26, 26);
+    font-size: 18px;
+    font-weight: 500;
+}
+.boxStyle{
+    width: 400px;
+    height: 500px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    position: absolute;
+    top: 13%;
+    left: 31%;
+    padding: 25px;
+}
+.modalUploader{
+    display: flex;
+    justify-content: center;
+}
+.uploadImage{
+    width: 70px;
+    height: 70px;
+    border: 1px dashed grey;
+    border-radius: 10px;
+    margin-right: 27px;
+}
+.uploadText{
+    color: grey;
+    font-size: 12px;
+}
+.browseImage{
+    color:blue;
+    font-size: 12px;
+}
+.orUploadText{
+    color: grey;
+    font-size: 12px;
+    margin-left: 25px;
+}
+.imageTextContainer > div{
+    padding-top: 5px;
+}
+.modalInput{
+    width: 50%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+}
+section > input{
+    float: right;
+    margin: 8px;
+}
+section > label{
+    float: left;
+    margin: 20px;
+    line-height: 9px;
+}
+.secOne{
+    padding-top: 10px;
+}
+.modalBtn{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 50%;
+}
+.modalBtn Button{
+    margin: 9px;
+    text-transform: none;
+}
+.stockText{
+    font-size: 12px;
+    font-weight: 500;
+}
+.footer Button{
+    text-transform: none;
+    font-size: 12px;
+} 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+.footer div{
+    font-size: 12px;
+    margin: 0px 300px;
+}
+.delIcon{
+    font-size: 18px;
+}
+@media screen and (max-width: 615px){
+    .productHeader
+    {
+        display: flex;
+        align-items: center;
+    }
+    table
+    {
+        width: 95%;
+    }
+}

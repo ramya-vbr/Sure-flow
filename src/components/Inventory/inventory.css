@@ -1,0 +1,121 @@
+.overallInventory{
+    margin: 0px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 22%;
+}
+.overallText{
+    padding: 8px 0px 0px 16px;
+}
+.overallTab{
+    display: flex;
+    justify-content: space-between;
+}
+.categoryTab> div, .categoryTabTwo > div, .categoryTabThree > div, .categoryTabFour > div{
+ padding: 3px 15px;
+   }  
+ .tabHeader{
+    font-size: 14px;
+    font-weight: 500;
+    color: blue;
+ }
+ .price{
+    color: rgb(70, 69, 69);
+    font-weight: 500;
+ }
+.days{
+    color: rgb(160, 157, 157);
+    font-size: 12px;
+} 
+.sideBorder{
+    border-right: 0.5px solid lightgrey;
+    height: 75px;
+}
+.bottomBorder{
+    display: none;
+}
+.categoryTabTwo, .categoryTabThree, .categoryTabFour {
+    margin-right: 50px;
+}
+.secondTabHeader{
+    font-size: 14px;
+    font-weight: 500;
+    color: orange;
+}
+.rowPrice{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+.rowDays{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-size: 12px;
+    }
+.priceSpace{
+    margin-left: 70px;
+    color: rgb(70, 69, 69);
+    font-weight: 500;
+}
+.thirdTabHeader{
+    font-size: 14px;
+    font-weight: 500;
+    color: darkviolet;
+}
+.fourthTabHeader{
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+}
+.stockChange{
+    margin-left: 50px;
+    color: rgb(160, 157, 157);
+    font-size: 12px;
+}
+@media screen and (max-width: 850px) {
+        .overallInventory
+        {
+            margin: 0px 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            height: 50%;
+            width: 95%;
+        }
+         .overallTab
+         {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+}
+@media screen and (max-width: 800px){
+    .overallInventory 
+        {
+            margin: 0px 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            height: 50%;
+            width: 95%;
+        }
+}
+@media screen and (max-width: 615px){
+    .overallInventory
+        {
+            margin: 0px 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            height: 50%;
+            width: 95%;
+        }
+}
+@media screen and (max-width: 450px) {
+    .overallInventory 
+    {
+        margin: 0px 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        height: 75%;
+        width: 75%;
+    }
+}
